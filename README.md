@@ -1,6 +1,6 @@
 # Developers Hub Corporation Website
 
-## 📌 Project Overview
+## Project Overview
 This project is a modern agency website for a technology company that provides software development, AI solutions, and digital services. It was developed as a task for the Front-End Development Internship.
 
 - **Duration:** 3 Weeks  
@@ -8,19 +8,19 @@ This project is a modern agency website for a technology company that provides s
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 - **Live Link:** https://developershub-website-eta.vercel.app/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Framework:** React + Vite  
 - **Styling:** Tailwind CSS  
 - **Deployment:** Vercel  
 
 ---
 
-## 📄 Pages Implemented
+## Pages Implemented
 As per the project requirements for Option 1, the following pages have been developed:
 
 - **Home:** A modern landing page representing the agency  
@@ -32,7 +32,7 @@ As per the project requirements for Option 1, the following pages have been deve
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 To run this project locally, follow these steps:
 
 ```bash
