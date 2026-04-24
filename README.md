@@ -9,13 +9,13 @@ This project is a modern agency website for a technology company that provides s
 ---
 
 ## 🚀 Live Demo
-- **Live Link:** [Paste your Vercel URL here]
+- **Live Link:** https://developershub-website-eta.vercel.app/
 
 ---
 
 ## 🛠️ Technologies Used
 - **Framework:** React + Vite  
-- **Styling:** CSS / [Add your styling library here, e.g., Tailwind CSS]  
+- **Styling:** Tailwind CSS  
 - **Deployment:** Vercel  
 
 ---
