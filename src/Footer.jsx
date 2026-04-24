@@ -47,8 +47,8 @@ function Footer() {
 	}
 
 	return (
-		<footer className="relative overflow-hidden bg-linear-to-br from-[#0B0F19] via-[#151336] to-[#0F1C36] px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-20">
-			<div className="pointer-events-none absolute inset-0 bg-[radial-gradient(42%_28%_at_50%_0%,rgba(99,102,241,0.12),transparent_72%)]" />
+		<footer className="relative overflow-hidden bg-[#090b14] px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-20">
+			<div className="pointer-events-none absolute inset-0" />
 
 			<button
 				type="button"

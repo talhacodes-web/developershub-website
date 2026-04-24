@@ -19,7 +19,7 @@ function Hero() {
 				</p>
 
 				<div className="mt-12 w-full max-w-4xl">
-					<div className="solutions-scene hidden md:block" aria-hidden="true">
+					<div className="solutions-scene" aria-hidden="true">
 						<div className="solutions-plane solutions-plane-back" />
 						<div className="solutions-plane solutions-plane-mid" />
 						<div className="solutions-plane solutions-plane-front" />
@@ -42,18 +42,6 @@ function Hero() {
 							<span className="solutions-core-inner" />
 							<span className="solutions-core-ring" />
 						</div>
-					</div>
-
-					<div className="solutions-mobile-visual md:hidden" aria-hidden="true">
-						<svg viewBox="0 0 540 300" className="h-full w-full" role="img" aria-label="Solutions network illustration">
-							<path d="M142 210L270 92L398 210" fill="none" stroke="#64748b" strokeWidth="3" opacity="0.6" />
-							<path d="M168 228L270 130L372 228" fill="none" stroke="#94a3b8" strokeWidth="2.5" opacity="0.7" />
-							<rect x="222" y="130" width="96" height="78" rx="14" fill="#0b1222" opacity="0.92" />
-							<circle cx="270" cy="169" r="20" fill="#334155" opacity="0.5" />
-							<circle cx="190" cy="212" r="10" fill="#94a3b8" opacity="0.85" />
-							<circle cx="352" cy="212" r="10" fill="#94a3b8" opacity="0.85" />
-							<circle cx="270" cy="244" r="10" fill="#cbd5e1" opacity="0.88" />
-						</svg>
 					</div>
 				</div>
 

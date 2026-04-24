@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import heroImage from '../../../assets/hero.png'
+import digitalServicesImage from '../../../assets/digital-services.jpg'
 
 function TheAgency() {
 	const sectionRef = useRef(null)
@@ -63,7 +63,7 @@ function TheAgency() {
 				>
 					<div className="overflow-hidden rounded-2xl shadow-[0_30px_70px_-24px_rgba(79,70,229,0.6)]">
 						<img
-							src={heroImage}
+							src={digitalServicesImage}
 							alt="Modern collaborative engineering environment"
 							className="h-80 w-full object-cover sm:h-95 lg:h-110"
 						/>

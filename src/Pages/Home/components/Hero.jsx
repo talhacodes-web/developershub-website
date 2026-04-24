@@ -1,5 +1,6 @@
 import ParticleBackground from '../../../ParticleBackground'
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const phrases = [
 	'Build Faster',
@@ -83,12 +84,12 @@ function Hero() {
 				</p>
 
 				<div className="mt-9 flex w-full flex-col items-center justify-center gap-3 sm:w-auto sm:flex-row sm:gap-4">
-					<a
-						href="#"
+					<Link
+						to="/login"
 						className="w-full rounded-xl bg-linear-to-r from-indigo-500 to-blue-500 px-7 py-3 text-sm font-semibold text-white shadow-[0_18px_40px_-20px_rgba(79,70,229,0.95)] transition-all duration-300 hover:-translate-y-0.5 hover:from-indigo-400 hover:to-blue-400 sm:w-auto"
 					>
 						Get Started
-					</a>
+					</Link>
 					<a
 						href="#meeting-scheduler"
 						className="w-full rounded-xl border border-slate-500/70 px-7 py-3 text-sm font-semibold text-slate-100 transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-slate-800/50 sm:w-auto"

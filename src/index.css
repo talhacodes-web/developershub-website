@@ -12,6 +12,15 @@
 
 .trusted-marquee {
 	width: 100%;
+	-webkit-mask-image: linear-gradient(to right, transparent 0%, #000 12%, #000 88%, transparent 100%);
+	mask-image: linear-gradient(to right, transparent 0%, #000 12%, #000 88%, transparent 100%);
+}
+
+@media (max-width: 639px) {
+	.trusted-marquee {
+		-webkit-mask-image: linear-gradient(to right, transparent 0%, #000 10%, #000 90%, transparent 100%);
+		mask-image: linear-gradient(to right, transparent 0%, #000 10%, #000 90%, transparent 100%);
+	}
 }
 
 .trusted-marquee-track {
@@ -394,15 +403,26 @@ html {
 
 @media (max-width: 767px) {
 	.journey-timeline {
-		padding-left: 2.4rem;
+		padding-left: 0;
 	}
 
-	.journey-axis {
-		left: 0.7rem;
+	.journey-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.7rem;
 	}
 
 	.journey-node-wrap {
-		left: -2.4rem;
+		position: relative;
+		left: 0;
+		top: 0;
+		transform: none;
+		z-index: 2;
+	}
+
+	.journey-card {
+		position: relative;
+		z-index: 1;
 	}
 
 	.journey-phase-tag {

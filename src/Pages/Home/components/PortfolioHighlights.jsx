@@ -1,4 +1,6 @@
-import heroImage from '../../../assets/hero.png'
+import heliosImage from '../../../assets/portfolio/Helios.png'
+import novaAiImage from '../../../assets/portfolio/Nova-AI.png'
+import quantumFintechImage from '../../../assets/portfolio/Quantum-FinTech-App.png'
 
 const projects = [
 	{
@@ -7,7 +9,7 @@ const projects = [
 		stack: 'Next.js • Tailwind • AWS',
 		description:
 			'A high-volume e-commerce experience with intelligent product discovery, secure checkout, and multi-region deployment.',
-		image: heroImage,
+		image: heliosImage,
 		tint: 'from-cyan-500/30 via-slate-950/30 to-indigo-500/30',
 	},
 	{
@@ -16,7 +18,7 @@ const projects = [
 		stack: 'React • Python • OpenAI',
 		description:
 			'An AI-powered analytics cockpit that automates reporting workflows and surfaces actionable recommendations in real time.',
-		image: heroImage,
+		image: novaAiImage,
 		tint: 'from-indigo-500/35 via-slate-950/35 to-fuchsia-500/25',
 	},
 	{
@@ -25,7 +27,7 @@ const projects = [
 		stack: 'React Native • Node.js • PostgreSQL',
 		description:
 			'A secure mobile finance platform with account insights, instant transfers, and fraud-aware transaction intelligence.',
-		image: heroImage,
+		image: quantumFintechImage,
 		tint: 'from-blue-500/30 via-slate-950/30 to-violet-500/30',
 	},
 ]
@@ -66,8 +68,8 @@ function PortfolioHighlights() {
 								</span>
 							</div>
 
-							<div className="absolute inset-0 flex flex-col justify-end p-6">
-								<div className="rounded-2xl bg-black/40 p-5 backdrop-blur-md transition-all duration-500 ease-out md:translate-y-5 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100">
+							<div className="relative p-4 sm:p-5 md:absolute md:inset-0 md:flex md:flex-col md:justify-end md:p-6">
+								<div className="rounded-2xl bg-black/45 p-5 backdrop-blur-md transition-all duration-500 ease-out md:translate-y-5 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100">
 									<h3 className="text-xl font-semibold text-white">{project.title}</h3>
 									<p className="mt-2 text-sm font-medium text-indigo-200">{project.stack}</p>
 									<p className="mt-3 text-sm leading-relaxed text-slate-200/90">{project.description}</p>

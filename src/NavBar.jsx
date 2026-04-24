@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import logo from './assets/logo.png'
+import logoo from './assets/logoo.png'
 
 const navLinks = [
 	{ label: 'Home', to: '/' },
@@ -16,19 +16,19 @@ function NavBar() {
 	const closeMenu = () => setIsMenuOpen(false)
 
 	return (
-		<header className="sticky top-0 z-50 bg-[#0B0F19]/95 text-slate-100 backdrop-blur-md">
+		<header className="sticky top-0 z-50 bg-[#090b14] text-slate-100 backdrop-blur-md">
 			<nav className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
 				<Link
 					to="/"
-					className="group flex items-center gap-3 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
+					className="group inline-flex items-center justify-center gap-3 rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400"
 					onClick={closeMenu}
 				>
 					<img
-						src={logo}
+						src={logoo}
 						alt="DevelopersHub logo"
-						className="h-9 w-9 rounded-md object-contain ring-1 ring-white/20"
+						className="block h-9 w-auto max-w-34 shrink-0 object-contain sm:h-10 sm:max-w-38"
 					/>
-					<span className="text-lg font-semibold tracking-wide text-slate-100 transition-colors duration-300 group-hover:text-sky-300 sm:text-xl">
+					<span className="text-lg leading-none font-semibold tracking-wide text-slate-100 transition-colors duration-300 group-hover:text-sky-300 sm:text-xl">
 						DevelopersHub
 					</span>
 				</Link>
