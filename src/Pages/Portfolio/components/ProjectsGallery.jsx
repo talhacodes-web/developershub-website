@@ -67,11 +67,11 @@ function ProjectCard({ project, index, onViewDetails }) {
 			</div>
 
 			<div className="relative p-6">
-				<div className="space-y-3 transition duration-300 group-hover:translate-y-2 group-hover:opacity-0">
+				<div className="space-y-3 transition duration-300 hidden md:block md:group-hover:translate-y-2 md:group-hover:opacity-0">
 					<p className="text-sm leading-relaxed text-slate-200">{project.focus}</p>
 				</div>
 
-				<div className="pointer-events-none absolute inset-x-6 top-6 flex flex-col items-center justify-center gap-4 opacity-0 transition duration-300 group-hover:pointer-events-auto group-hover:opacity-100">
+				<div className="flex md:pointer-events-none md:absolute md:inset-x-6 md:top-6 flex-col items-center justify-center gap-4 md:opacity-0 transition duration-300 md:group-hover:pointer-events-auto md:group-hover:opacity-100">
 					<div className="flex flex-wrap justify-center gap-2">
 						{project.techStack.map((tech) => (
 							<span
