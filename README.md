@@ -1,16 +1,42 @@
-# React + Vite
+# Developers Hub Corporation Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
+This project is a modern agency website for a technology company that provides software development, AI solutions, and digital services. It was developed as a task for the Front-End Development Internship.
 
-Currently, two official plugins are available:
+- **Duration:** 3 Weeks  
+- **Submission Deadline:** 28 April 2026 (11:59 PM)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
+- **Live Link:** [Paste your Vercel URL here]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+- **Framework:** React + Vite  
+- **Styling:** CSS / [Add your styling library here, e.g., Tailwind CSS]  
+- **Deployment:** Vercel  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📄 Pages Implemented
+As per the project requirements for Option 1, the following pages have been developed:
+
+- **Home:** A modern landing page representing the agency  
+- **About Us:** Information about the company and its mission  
+- **Services:** Detailed overview of AI Solutions, Digital Marketing, and Software Development  
+- **Portfolio / Projects:** A showcase of digital services and agency work  
+- **Contact Page:** A functional contact form for client inquiries  
+- **Meeting Scheduler:** A dedicated UI/Booking interface for appointments  
+
+---
+
+## ⚙️ Setup and Installation
+To run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/talhacodes-web/developershub-website
+cd your-repo-name
+npm install
+npm run dev
